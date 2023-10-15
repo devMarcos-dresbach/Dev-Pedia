@@ -1,0 +1,56 @@
+.wikipedia-container {
+    font-family: Arial, sans-serif;
+    background-color: #f6f6f6;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.wikipedia-header .logo {
+    font-size: 3rem;
+    font-weight: bold;
+    margin: 40px;
+}
+
+.wikipedia-main .search-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.search-input {
+    padding: 10px;
+    width: 300px;
+    margin-bottom: 20px;
+    font-size: 1rem;
+}
+
+.search-button {
+    padding: 10px 15px;
+    background-color: #555;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.search-button:hover {
+    background-color: #333;
+}
+
+.info-section p {
+    width: 60%;
+    text-align: center;
+}
+
+.wikipedia-footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #333;
+    color: #fff;
+}

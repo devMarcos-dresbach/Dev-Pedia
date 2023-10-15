@@ -1,0 +1,20 @@
+.css-container {
+    padding: 20px;
+    max-width: 1100px;
+    margin: 0 auto;
+    background-color: #f9f9f9;
+}
+
+h1, h2 {
+    color: #444;
+}
+
+code {
+    display: block;
+    padding: 10px;
+    margin: 10px 0;
+    background-color: #eee;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    white-space: pre-wrap;
+}

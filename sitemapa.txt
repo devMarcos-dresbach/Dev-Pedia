@@ -1,0 +1,95 @@
+/binbash
+|-- /pages
+|   |-- index.html (Homepage)
+|   |-- /languages
+|   |   |-- html.html
+|   |   |-- css.html
+|   |   |-- javascript.html
+|   |   |-- ...
+|   |-- /frameworks
+|   |   |-- react.html
+|   |   |-- angular.html
+|   |   |-- ...
+|   |-- /tools
+|   |   |-- ides.html
+|   |   |-- editors.html
+|   |   |-- ...
+|   |-- /databases
+|   |   |-- relational.html
+|   |   |-- nosql.html
+|   |   |-- ...
+|   |-- /devops
+|   |   |-- integration.html
+|   |   |-- docker.html
+|   |   |-- ...
+|   |-- /patterns
+|   |-- /community
+|   |   |-- forums.html
+|   |   |-- gallery.html
+|   |   |-- ...
+|   |-- /news
+|   |-- /about
+|   |-- /account
+|   |   |-- login.html
+|   |   |-- register.html
+|   |-- /dashboard (Para os usuários)
+|   |   |-- profile.html
+|   |   |-- contributions.html
+|   |   |-- notifications.html
+|   |   |-- ...
+|   |-- /admin (Painel do admin)
+|   |   |-- dashboard.html
+|   |   |-- manage-content.html
+|   |   |-- manage-users.html
+|   |   |-- ...
+
+|-- /styles
+|   |-- index.css
+|   |-- /languages
+|   |   |-- html.css
+|   |   |-- css.css
+|   |   |-- javascript.css
+|   |   |-- ...
+|   |-- /frameworks
+|   |   |-- react.css
+|   |   |-- angular.css
+|   |   |-- ...
+|   |-- /tools
+|   |   |-- ides.css
+|   |   |-- editors.css
+|   |   |-- ...
+|   |-- /databases
+|   |   |-- relational.css
+|   |   |-- nosql.css
+|   |   |-- ...
+|   |-- /devops
+|   |   |-- integration.css
+|   |   |-- docker.css
+|   |   |-- ...
+|   |-- /patterns
+|   |-- /community
+|   |   |-- forums.css
+|   |   |-- gallery.css
+|   |   |-- ...
+|   |-- /news
+|   |-- /about
+|   |-- /account
+|   |   |-- login.css
+|   |   |-- register.css
+|   |-- /dashboard
+|   |   |-- profile.css
+|   |   |-- contributions.css
+|   |   |-- notifications.css
+|   |   |-- ...
+|   |-- /admin
+|   |   |-- dashboard.css
+|   |   |-- manage-content.css
+|   |   |-- manage-users.css
+|   |   |-- ...
+
+|-- /server
+|   |-- server.js (ou server.py, dependendo da linguagem escolhida)
+|   |-- /database
+|   |-- /routes
+|   |-- /middleware
+|   |-- ...

@@ -1,0 +1,10 @@
+.wiki-footer {
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-top: 1px solid #ddd;
+    text-align: center;
+}
+
+.wiki-footer p {
+    margin: 0;
+}
