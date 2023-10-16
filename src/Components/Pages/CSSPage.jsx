@@ -1,5 +1,6 @@
 import React from 'react';
-import '../Styles/CSSPage.css';
+import Header from './Header';
+import '../../Styles/CSSPage.css';
 
 const CSSPage = () => {
     return (

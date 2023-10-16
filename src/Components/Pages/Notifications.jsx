@@ -1,5 +1,6 @@
 import React from 'react';
-import '../Styles/Notifications.css';
+import '../../Styles/Notifications.css';
+import Header from './Header';
 
 const Notifications = () => {
     // Esta é uma simulação de dados de notificações, no futuro você pode buscar isso de uma API.

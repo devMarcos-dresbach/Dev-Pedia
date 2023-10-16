@@ -1,5 +1,7 @@
 import React from 'react';
-import '../Styles/Databases.css';
+import Header from './Header';
+
+import '../../Styles/Databases.css';
 
 const Databases = () => {
     // Simulação de dados de bancos de dados - em um caso real, isso poderia ser obtido de um backend ou API.

@@ -1,5 +1,6 @@
 import React from 'react';
-import '../Styles/Docker.css';
+import '../../Styles/Docker.css';
+import Header from './Header';
 
 const Docker = () => {
     return (

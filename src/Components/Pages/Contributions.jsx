@@ -1,5 +1,6 @@
 import React from 'react';
-import '../Styles/Contributions.css';
+import Header from './Header';
+import '../../Styles/Contributions.css';
 
 const Contributions = () => {
     // Esta é uma simulação de dados de contribuições, no futuro você pode buscar isso de uma API.

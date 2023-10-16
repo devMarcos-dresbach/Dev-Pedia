@@ -1,5 +1,7 @@
 import React from 'react';
-import '../Styles/Forums.css';
+import '../../Styles/Forums.css';
+import Header from './Header';
+
 
 const Forums = () => {
     return (

@@ -1,5 +1,6 @@
 import React from 'react';
-import '../Styles/IDEs.css';
+import '../../Styles/IDEs.css';
+import Header from './Header';
 
 const IDEs = () => {
     // Simulação de dados de IDEs - em um caso real, isso poderia ser obtido de um backend ou API.

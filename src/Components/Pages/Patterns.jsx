@@ -1,5 +1,6 @@
 import React from 'react';
-import '../Styles/Patterns.css';
+import '../../Styles/Patterns.css';
+import Header from './Header';
 
 const Patterns = () => {
     // Simulação de dados de padrões - em um caso real, você poderia obter isso de um backend ou API.

@@ -1,5 +1,7 @@
 import React from 'react';
-import '../Styles/Gallery.css';
+import '../../Styles/Gallery.css';
+import Header from './Header';
+
 
 const Gallery = () => {
     // No futuro, você pode buscar estas imagens de uma API ou banco de dados.

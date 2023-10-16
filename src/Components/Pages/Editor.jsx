@@ -1,7 +1,8 @@
 import React, { useState } from 'react';
 import ReactQuill from 'react-quill';
 import 'react-quill/dist/quill.snow.css'; // importa estilos
-import '../Styles/Editor.css';
+import '../../Styles/Editor.css';
+import Header from './Header';
 
 const Editor = () => {
     const [content, setContent] = useState('');

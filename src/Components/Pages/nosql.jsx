@@ -1,5 +1,6 @@
 import React from 'react';
-import '../Styles/NoSQL.css';
+import '../../Styles/NoSQL.css';
+import Header from './Header';
 
 const NoSQL = () => {
     return (

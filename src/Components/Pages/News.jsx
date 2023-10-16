@@ -1,5 +1,6 @@
 import React from 'react';
-import '../Styles/News.css';
+import '../../Styles/News.css';
+import Header from './Header';
 
 const News = () => {
     // Simulação de dados de notícias - no mundo real, você provavelmente obteria isso de uma API.

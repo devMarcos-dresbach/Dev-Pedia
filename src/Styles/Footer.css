@@ -1,0 +1,71 @@
+/* Estilos Globais */
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #F5F5F5; /* Branco Gelo */
+    height: 100%; /* garante que o body e o html tenham altura total */
+}
+
+.devpedia-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Altura total da viewport */
+}
+
+.devpedia-main {
+    flex: 1 0 auto; /* permite que o conteúdo principal cresça e empurre o rodapé para baixo */
+}
+
+/* Estilos do Rodapé */
+.footer {
+    background-color: #F5F5F5; /* Branco Gelo */
+    margin: 0;
+    padding: 16px 0;
+    text-align: center;
+    border-top: 2px solid #007BFF; /* Listra Azul */
+    width: 100%; /* Garante que o rodapé ocupe toda a largura */
+}
+
+.footer p {
+    margin: 8px 0;
+    color: #000; /* Cor Preta */
+}
+
+.footer-links {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 8px; /* espaço entre os links */
+    margin-top: 16px;
+}
+
+.footer-links a {
+    color: #007BFF;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-links a:hover {
+    color: #0056b3;
+}
+
+/* Outros estilos que você forneceu */
+h2 {
+    text-transform: uppercase;
+}
+
+p {
+    color: #333;
+    text-align: center;
+    font-size: 16px;
+}
+
+/* Aqui estou adicionando uma altura de exemplo para o cabeçalho. Ajuste conforme necessário. */
+.header {
+    height: 70px; /* ajuste conforme necessário */
+}
+
+.footer {
+    height: 100px; /* ajuste conforme necessário */
+}

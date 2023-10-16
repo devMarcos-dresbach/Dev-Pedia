@@ -1,5 +1,6 @@
 import React from 'react';
-import '../Styles/Styles/Relational.css';
+import '../../Styles/Relational.css';
+import Header from './Header';
 
 const Relational = () => {
     return (

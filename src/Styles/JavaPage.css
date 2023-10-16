@@ -1,0 +1,48 @@
+.java-container {
+    font-family: 'Arial', sans-serif;
+    background-color: #F5F5F5;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.java-content {
+    max-width: 900px;
+    padding: 20px;
+    margin-top: 60px;
+    background: #ffffff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+    color: #333;
+}
+
+p, li {
+    color: #555;
+    line-height: 1.6;
+}
+
+.features, .code-example, .advanced-topics {
+    margin-top: 30px;
+}
+
+.code-example pre {
+    background-color: #f5f5f5;
+    padding: 15px;
+    overflow-x: auto;
+}
+
+.code-example code {
+    font-family: 'Courier New', Courier, monospace;
+    color: #333;
+}
+
+.java-footer {
+    margin-top: 40px;
+}

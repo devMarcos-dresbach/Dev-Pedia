@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Styles/ManageContent.css';
+import '../../Styles/ManageContent.css';
 
 const ManageContent = () => {
     return (

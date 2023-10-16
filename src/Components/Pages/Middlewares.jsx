@@ -1,5 +1,6 @@
 import React from 'react';
-import '../Styles/Middlewares.css';
+import '../../Styles/Middlewares.css';
+import Header from './Header';
 
 const Middlewares = () => {
     // Simulação de dados de middlewares

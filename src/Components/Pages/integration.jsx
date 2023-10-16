@@ -1,5 +1,6 @@
 import React from 'react';
-import '../Styles/Integration.css';
+import '../../Styles/Integration.css';
+import Header from './Header';
 
 const Integration = () => {
     return (

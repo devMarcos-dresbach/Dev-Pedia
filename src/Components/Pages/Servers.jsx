@@ -1,5 +1,6 @@
 import React from 'react';
-import '../Styles/Servers.css';
+import '../../Styles/Servers.css';
+import Header from './Header';
 
 const Servers = () => {
     const serverData = [

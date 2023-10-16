@@ -1,5 +1,6 @@
 import React from 'react';
-import '../Styles/Angular.css';
+import Header from './Header';
+import '../../Styles/Angular.css';
 
 const Angular = () => {
     return (

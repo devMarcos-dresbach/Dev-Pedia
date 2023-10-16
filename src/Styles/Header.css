@@ -1,0 +1,142 @@
+/* Styles/Header.css */
+
+.devpedia-header {
+    display: flex;
+    flex-direction: column; /* Isso permitirá que a marca e a descrição sejam exibidas acima das opções */
+    justify-content: center;
+    align-items: center;
+    background-color: #f8f9fa;
+    padding: 10px 20px;
+    width: 100%;
+    box-sizing: border-box;
+    border-bottom: 3px solid #007BFF;
+    position: fixed;
+    top: 0;
+    left: 0;
+
+    z-index: 1000;
+}
+.dropdown-title {
+    font-weight: bold;  /* Define os títulos do dropdown como negrito */
+    cursor: pointer;   /* Mostra que o item é clicável */
+}
+
+.brand {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex: 2;
+    margin-bottom: 10px; /* Espaço entre a descrição e o nav */
+}
+.brand > div:first-child {
+    font-size: 36px; /* Aumentado o tamanho da fonte */
+    font-weight: bold;
+}
+
+.description {
+    font-size: 16px; /* Reduzindo o tamanho da descrição */
+    color: #333;
+    margin-top: 5px;
+}
+.description {
+    font-size: 14px;
+    color: #0e0a0a;
+}
+
+.main-nav {
+    /* estilizações das opções, se necessário */
+}
+.main-nav ul {
+    list-style-type: none; /* remove os bullets padrões das listas */
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 15px; /* espaço entre as opções do menu */
+}
+.main-nav li {
+    font-weight: bold; /* define as opções como negrito */
+    font-size: 18px; /* um pouco maior */
+    cursor: pointer; /* ícone de mãozinha quando passar o mouse */
+    transition: color 0.3s, transform 0.3s; /* suavidade na mudança de cor e tamanho */
+}
+
+.main-nav li:hover {
+    color: #007BFF; /* muda a cor quando o mouse está em cima */
+    transform: scale(1.1); /* aumenta um pouco o tamanho quando o mouse está em cima */
+}
+.login-tools {
+    font-size: 16px;
+    position: absolute; /* Faz com que 'Entrar' se mova para o canto direito superior */
+    top: 10px;
+    right: 20px;
+}
+.main-nav .dropdown-content {
+    display: none; /* escondido por padrão */
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.main-nav a {
+    font-weight: bold; /* Define as âncoras (links) como negrito */
+    text-decoration: none; /* Remove o sublinhado padrão dos links */
+    color: inherit; /* herda a cor do elemento pai, nesse caso o <li> */
+}
+.main-nav li:hover .dropdown-content {
+    display: block; /* mostra o dropdown quando o mouse estiver em cima do li */
+}
+.spacer {
+    flex: 1;
+}
+/* ... seu código CSS atual ... */
+
+/* Dropdown Styles */
+.dropdown {
+    position: relative;
+    display: inline-block;
+    margin: 0 10px; /* Espaço entre os dropdowns */
+}
+
+.dropbtn {
+    background-color: #f8f9fa; /* Um cinza claro, semelhante ao da Wikipedia */
+    color: black;
+    padding: 10px 16px;
+    font-size: 14px;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px; /* Arredondamento dos cantos do botão */
+    transition: background-color 0.3s; /* Transição suave ao passar o mouse */
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px; /* Largura mínima do menu dropdown */
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); /* Sombra ao redor do menu dropdown */
+    z-index: 1; /* Garante que o menu dropdown apareça no topo */
+    border-radius: 4px; /* Arredondamento dos cantos do menu dropdown */
+    overflow: hidden; /* Garante que todo o conteúdo fique dentro do menu dropdown */
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    transition: background-color 0.3s; /* Transição suave ao passar o mouse */
+}
+
+.dropdown-content a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #ddd; /* Muda a cor de fundo do botão ao passar o mouse */
+}

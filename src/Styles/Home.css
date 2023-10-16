@@ -1,0 +1,31 @@
+/* Styles/Home.css */
+
+.devpedia-container {
+    font-family: 'Arial', sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+
+.devpedia-main {
+    max-width: 800px;
+    margin: 80px auto 20px; /* 80px no topo para não ficar atrás do cabeçalho fixo */
+    padding: 70px;
+    margin-top: 70px; /* Ajuste este valor conforme necessário para dar o espaço desejado do cabeçalho */
+
+}
+
+.introduction-section {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.introduction-section h1 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    color: #007BFF; /* um azul para dar destaque */
+}
+
+.introduction-section p {
+    font-size: 1.1em;
+    margin-bottom: 20px;
+}

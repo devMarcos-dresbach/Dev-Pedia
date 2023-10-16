@@ -1,8 +1,11 @@
 import React from 'react';
+
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 
 // Importação de Páginas
-import AboutPage from './Components/Pages/about/AboutPage';
+import Header from './Components/Pages/Header';
+import Footer from './Components/Pages/Footer';
+import AboutPage from './Components/Pages/AboutPage';
 import LoginPage from './Components/Pages/LoginPage';
 import RegisterPage from './Components/Pages/RegisterPage';
 import Dashboard from './Components/Pages/Dashboard';
@@ -68,7 +71,8 @@ function App() {
                         <Route path="/middlewares" element={<Middlewares />} />
                         <Route path="/servers" element={<Servers />} />
                     </Routes>
-                </main>
+                    </main>
+                <Footer />
             </div>
         </Router>
     );

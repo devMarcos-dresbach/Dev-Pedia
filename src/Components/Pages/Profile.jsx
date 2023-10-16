@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Styles/Profile.css';
+import '../../Styles/Profile.css';
 
 const Profile = () => {
     // Simulação de dados do usuário - no mundo real, você provavelmente obteria isso de um back-end.

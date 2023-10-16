@@ -1,5 +1,5 @@
 import React from 'react';
-import '../Styles/ManageUsers.css';
+import '../../Styles/ManageUsers.css';
 
 const ManageUsers = () => {
     return (

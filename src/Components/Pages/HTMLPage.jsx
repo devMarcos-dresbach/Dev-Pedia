@@ -1,5 +1,6 @@
 import React from 'react';
-import '../Styles/HTMLPage.css';
+import '../../Styles/HTMLPage.css';
+import Header from './Header';
 
 const HTMLPage = () => {
     return (
